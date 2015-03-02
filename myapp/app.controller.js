@@ -33,6 +33,9 @@ myModule
 			
 				
 			}
+			// $scope.animate=function(){
+			// 	isAnimate= true;
+			// }
 			$scope.clearStoragedata= function(){
 				if($localStorage.data)
 				{
