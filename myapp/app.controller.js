@@ -62,3 +62,14 @@ myModule.controller('addcount',['$scope','$localStorage',function($scope,$localS
 	// 	 $scope.key ="";
 	// }
 }]);
+myModule.controller('themeController',['$scope',function($scope){
+	$scope.theme1=function(){
+		$scope.css="theme1";
+	}
+	$scope.theme2=function(){
+		$scope.css="theme2";
+	}
+	$scope.theme3=function(){
+		$scope.css="theme3";
+	}
+}]);
